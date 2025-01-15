@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BazaDeDate", "BazaDeDate\BazaDeDate.csproj", "{AF3E06C9-5475-4398-BF80-33B8E8D6A9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentieTurismMobil", "AgentieTurismMobil\AgentieTurismMobil.csproj", "{EC268F5B-846E-4771-8319-76DC9CD16498}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF3E06C9-5475-4398-BF80-33B8E8D6A9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3E06C9-5475-4398-BF80-33B8E8D6A9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3E06C9-5475-4398-BF80-33B8E8D6A9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3E06C9-5475-4398-BF80-33B8E8D6A9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC268F5B-846E-4771-8319-76DC9CD16498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC268F5B-846E-4771-8319-76DC9CD16498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC268F5B-846E-4771-8319-76DC9CD16498}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EC268F5B-846E-4771-8319-76DC9CD16498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC268F5B-846E-4771-8319-76DC9CD16498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC268F5B-846E-4771-8319-76DC9CD16498}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68FD4AFF-C80F-4212-A47C-BFA710A3C20F}
+	EndGlobalSection
+EndGlobal
