@@ -13,10 +13,6 @@ namespace BazaDeDate.Models
         public string Username { get; set; }
 
         [Required]
-        [StringLength(255)]
-        public string PasswordHash { get; set; }
-
-        [Required]
         [StringLength(20)]
         public string Role { get; set; } // 'Tourist' or 'Agent'
 

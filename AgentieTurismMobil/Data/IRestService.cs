@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AgentieTurismMobil.Models;
 
@@ -21,5 +20,15 @@ namespace AgentieTurismMobil.Data
         Task<List<Booking>> RefreshBookingsAsync();
         Task SaveBookingAsync(Booking booking, bool isNewItem);
         Task DeleteBookingAsync(int id);
+
+        // Notification-related methods
+        Task<List<Notification>> RefreshNotificationsAsync();
+        Task SaveNotificationAsync(Notification notification, bool isNewItem);
+        Task DeleteNotificationAsync(int id);
+
+        // Review-related methods
+        Task<List<Review>> RefreshReviewsAsync();
+        Task SaveReviewAsync(Review review, bool isNewItem);
+        Task DeleteReviewAsync(int id);
     }
 }

@@ -17,5 +17,7 @@ namespace BazaDeDate.Data
         public DbSet<BazaDeDate.Models.User> User { get; set; } = default!;
         public DbSet<BazaDeDate.Models.Vacation> Vacation { get; set; } = default!;
         public DbSet<BazaDeDate.Models.Booking> Booking { get; set; } = default!;
+        public DbSet<BazaDeDate.Models.Notification> Notification { get; set; } = default!;
+        public DbSet<BazaDeDate.Models.Review> Review { get; set; } = default!;
     }
 }
